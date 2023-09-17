@@ -6,7 +6,7 @@
 /*   By: yabdoul <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/17 13:22:23 by yabdoul           #+#    #+#             */
-/*   Updated: 2023/09/17 14:42:17 by yabdoul          ###   ########.fr       */
+/*   Updated: 2023/09/17 17:35:28 by yabdoul          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,12 +21,11 @@ char	*ft_strncpy(char *dest, char *src, unsigned int n)
 	{
 	dest[i] = src[i];
 	i++;
-	} ;
-	while(i < n)
+	}
+	while (i < n)
 	{
-	dest[i]= '\0';
+	dest[i] = '\0';
 	i++;
 	}
-
 	return (dest);
 }
